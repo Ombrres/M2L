@@ -4,7 +4,7 @@ def index():
     """
     Page d'accueil
     """
-    message = "Bienvenuee sur le portail de la Maison des Ligues !"
+    message = "Bienvenue sur le portail de la Maison des Ligues !"
     return locals()
 
 
