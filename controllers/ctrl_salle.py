@@ -39,7 +39,7 @@ def ajouterSalle():
     Fournit à la vue un formulaire d'ajout de salle
     """
     form=SQLFORM(db.salle)    #formulaire reposant sur la structure de la table Salle
-
+    #if
     if form.process().accepted:
         # LE CODE PRESENT DANS CETTE SECTION SERA EXECUTÉ SEULEMENT APRÈS VALIDATION DU FORMULAIRE
         # on peut accéder aux valeurs renseignées dans les champs du formulaire grace à la variable : form.vars[nomChamp]
